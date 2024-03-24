@@ -122,9 +122,15 @@ body {
   font-size: 1.2vw;
 }
 
+#super-main{
+  position: relative;
+  background-color: black;
+}
+
 #main {
   position: relative;
-  background-color: #000;
+  background-color: #1b1b1b;
+  padding: 0 5vw;
 }
 
 #page1 {
@@ -138,7 +144,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5vw;
 }
 
 #nav-part1 {
@@ -214,9 +219,9 @@ body {
 
 #video-container{
     height: 72vh;
-    width: 65vw;
+    width: 67vw;
     position: relative;
-    transform: translateX(52%);
+    transform: translateX(41%);
     margin-top: 14vw;
 }
 
@@ -255,7 +260,97 @@ body {
 }
 
 #page2 {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #1b1b1b;
 }
+
+#page3 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1b1b1b;
+  display: flex;
+  gap: 3vw;
+  padding: 5vw 0;
+}
+
+
+#number-three h1{
+  margin: 0;  
+  font-size: 4vw;
+  font-family: silk serif;
+  font-weight: 100;
+  margin-left: 14vw;
+  margin-top: 5vw;
+  display: inline;
+}
+
+#page3-heading h1{
+  margin: 0;
+  font-size: 2.2vw;
+}
+
+.underline{
+  height: 2px;
+  background-color: #fff;
+  margin: 3vw 0 3vw 0;
+}
+
+#page3-content>p{
+  width: 52%;
+  font-size: 2.3vw;
+}
+
+#page3-flex{
+  margin-top: 4vw;
+  display: flex;
+  gap: 3vw;
+}
+
+#page3-flex img{
+  width: 31vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+#page3-flex p{
+  width: 27%;
+  font-size: 1.1vw;
+  line-height: 1.2vw;
+}
+
+#page3-blue-div{
+  background-color: #3f7df4;
+  width: 42vw;
+  padding: 4vw 3vw;
+  position: relative;
+  margin-top: -9vw;
+  margin-left: 20vw;
+}
+
+.blue-div-elem{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vw 0;
+  border-bottom: 2px solid #ffffffa2;
+}
+
+.blue-div-elem h4{
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+
+.blue-div-elem p{
+  font-size: 1.1vw;
+  width: 55%;
+  font-weight: 500;
+}
+
+#page4 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1b1b1b;
+}
+
+

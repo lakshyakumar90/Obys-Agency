@@ -43,7 +43,7 @@ function loadingAnimation(){
       ease: "power5",
     });
 
-    tl.from("#page1", {
+    tl.from("#main", {
       y: 1600,
       opacity: 0,
       duration: 0.5,
@@ -64,7 +64,7 @@ function loadingAnimation(){
       {
         opacity: 0,
         y: 20,
-        stagger: 0.2,
+        stagger: 0.1,
       }
     );
 
