@@ -30,6 +30,11 @@ function locomotiveScroll() {
   ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 
   ScrollTrigger.refresh();
+
+  // const scroll = new LocomotiveScroll({
+  //   el: document.querySelector('#main'),
+  //   smooth: true
+// });
 }
 
 function loadingAnimation() {
@@ -38,9 +43,8 @@ function loadingAnimation() {
   tl.from(".line h1", {
     y: 160,
     opacity: 0,
-    stagger: 0.3,
-    duration: 1,
-    delay: 0.5,
+    stagger: 0.2,
+    delay: 1,
   });
 
   tl.from("#para", {
@@ -175,9 +179,9 @@ function scrollTrigger(){
     scrollTrigger: {
       trigger: "#page3",
       scroller:"#main",
-      start: "top 30%",
+      start: "top 66%",
       end: "top 0%",
-      scrub:3
+      scrub:1
     }
   })
 
@@ -188,8 +192,9 @@ function scrollTrigger(){
       trigger: "#page4",
       scroller:"#main",
       start: "top 90%",
+      markers:true,
       end: "top 50%",
-      scrub:3
+      scrub:1
     }
   })
 
@@ -201,7 +206,7 @@ function scrollTrigger(){
       scroller:"#main",
       start: "top 90%",
       end: "top 50%",
-      scrub:3
+      scrub:1
     }
   })
 
