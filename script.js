@@ -192,7 +192,6 @@ function scrollTrigger(){
       trigger: "#page4",
       scroller:"#main",
       start: "top 90%",
-      markers:true,
       end: "top 50%",
       scrub:1
     }
